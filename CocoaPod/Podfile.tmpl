@@ -1,0 +1,45 @@
+# vim:ft=Ruby
+#
+# Base Podfile template for projects targeting OSX and iOS
+#
+# Author: Francisco Garcia <public@francisco-garcia.net>
+#         https://github.com/fgarcia
+#
+# Last Update: 2012-11-28
+
+
+# Is it possible to group all OSX and iOS apart?
+# ... partial solution: choose one default platform (OSX)
+#                       override the rest (iOS)
+platform :osx
+
+# Disable Pod warnings
+# MOST of the time, they are not related with your project
+inhibit_all_warnings!
+
+# Default pods for every target
+pod 'MagicalRecord'
+pod 'CocoaLumberjack'
+pod 'ConciseKit'
+
+target :MyAppTests, :exclusive => true do
+    # exclusive to ignore default pods
+    #
+    # This is a testing target with "Bundle Loader" linking to a binary already
+    # compiled with all the default pods. The exclusive option prevents
+    # duplicated symbols
+    pod 'OCHamcrest'
+    pod 'OCMock'
+end
+
+target :MyAppOSXTests do
+    pod 'GHUnitOSX'
+    pod 'OCHamcrest'
+    pod 'OCMock'
+end
+
+target :MyAppTouch do
+    platform :ios
+end
+
+xcodeproj 'MyApp.xcodeproj'
