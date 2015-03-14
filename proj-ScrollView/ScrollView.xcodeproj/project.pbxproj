@@ -16,6 +16,9 @@
 		C4571FB01AB1C65700AF0B41 /* ScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4571FAF1AB1C65700AF0B41 /* ScrollViewTests.m */; };
 		C4571FBB1AB1CB9F00AF0B41 /* ImageScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4571FBA1AB1CB9F00AF0B41 /* ImageScrollViewController.m */; };
 		C4571FBE1AB1D62200AF0B41 /* ViewHierarchyScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4571FBD1AB1D62200AF0B41 /* ViewHierarchyScrollViewController.m */; };
+		C4571FC11AB1DCD700AF0B41 /* PagedScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4571FC01AB1DCD700AF0B41 /* PagedScrollViewController.m */; };
+		C4571FC41AB1E73100AF0B41 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4571FC31AB1E73100AF0B41 /* PhotoViewController.m */; };
+		C4879B831AB319B900B07068 /* ScrollContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4879B821AB319B900B07068 /* ScrollContainerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,12 @@
 		C4571FBA1AB1CB9F00AF0B41 /* ImageScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageScrollViewController.m; sourceTree = "<group>"; };
 		C4571FBC1AB1D62200AF0B41 /* ViewHierarchyScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewHierarchyScrollViewController.h; sourceTree = "<group>"; };
 		C4571FBD1AB1D62200AF0B41 /* ViewHierarchyScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewHierarchyScrollViewController.m; sourceTree = "<group>"; };
+		C4571FBF1AB1DCD700AF0B41 /* PagedScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagedScrollViewController.h; sourceTree = "<group>"; };
+		C4571FC01AB1DCD700AF0B41 /* PagedScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagedScrollViewController.m; sourceTree = "<group>"; };
+		C4571FC21AB1E73100AF0B41 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		C4571FC31AB1E73100AF0B41 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		C4879B811AB319B900B07068 /* ScrollContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollContainerView.h; sourceTree = "<group>"; };
+		C4879B821AB319B900B07068 /* ScrollContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollContainerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +108,12 @@
 				C4571FBA1AB1CB9F00AF0B41 /* ImageScrollViewController.m */,
 				C4571FBC1AB1D62200AF0B41 /* ViewHierarchyScrollViewController.h */,
 				C4571FBD1AB1D62200AF0B41 /* ViewHierarchyScrollViewController.m */,
+				C4571FBF1AB1DCD700AF0B41 /* PagedScrollViewController.h */,
+				C4571FC01AB1DCD700AF0B41 /* PagedScrollViewController.m */,
+				C4571FC21AB1E73100AF0B41 /* PhotoViewController.h */,
+				C4571FC31AB1E73100AF0B41 /* PhotoViewController.m */,
+				C4879B811AB319B900B07068 /* ScrollContainerView.h */,
+				C4879B821AB319B900B07068 /* ScrollContainerView.m */,
 			);
 			path = ScrollView;
 			sourceTree = "<group>";
@@ -232,8 +247,11 @@
 				C4571F9C1AB1C65700AF0B41 /* ViewController.m in Sources */,
 				C4571FBE1AB1D62200AF0B41 /* ViewHierarchyScrollViewController.m in Sources */,
 				C4571F991AB1C65700AF0B41 /* AppDelegate.m in Sources */,
+				C4571FC11AB1DCD700AF0B41 /* PagedScrollViewController.m in Sources */,
 				C4571F961AB1C65700AF0B41 /* main.m in Sources */,
+				C4879B831AB319B900B07068 /* ScrollContainerView.m in Sources */,
 				C4571FBB1AB1CB9F00AF0B41 /* ImageScrollViewController.m in Sources */,
+				C4571FC41AB1E73100AF0B41 /* PhotoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
