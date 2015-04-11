@@ -18,6 +18,8 @@
 		C4571FBE1AB1D62200AF0B41 /* ViewHierarchyScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4571FBD1AB1D62200AF0B41 /* ViewHierarchyScrollViewController.m */; };
 		C4571FC11AB1DCD700AF0B41 /* PagedScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4571FC01AB1DCD700AF0B41 /* PagedScrollViewController.m */; };
 		C4571FC41AB1E73100AF0B41 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4571FC31AB1E73100AF0B41 /* PhotoViewController.m */; };
+		C47D33981AD82B70006DF18A /* InfiniteThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C47D33971AD82B70006DF18A /* InfiniteThreeViewController.m */; };
+		C47D339B1AD83B80006DF18A /* InfiniteHorzontalScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C47D339A1AD83B80006DF18A /* InfiniteHorzontalScrollView.m */; };
 		C4879B831AB319B900B07068 /* ScrollContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4879B821AB319B900B07068 /* ScrollContainerView.m */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +55,10 @@
 		C4571FC01AB1DCD700AF0B41 /* PagedScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagedScrollViewController.m; sourceTree = "<group>"; };
 		C4571FC21AB1E73100AF0B41 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
 		C4571FC31AB1E73100AF0B41 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		C47D33961AD82B70006DF18A /* InfiniteThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfiniteThreeViewController.h; sourceTree = "<group>"; };
+		C47D33971AD82B70006DF18A /* InfiniteThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfiniteThreeViewController.m; sourceTree = "<group>"; };
+		C47D33991AD83B80006DF18A /* InfiniteHorzontalScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfiniteHorzontalScrollView.h; sourceTree = "<group>"; };
+		C47D339A1AD83B80006DF18A /* InfiniteHorzontalScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfiniteHorzontalScrollView.m; sourceTree = "<group>"; };
 		C4879B811AB319B900B07068 /* ScrollContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollContainerView.h; sourceTree = "<group>"; };
 		C4879B821AB319B900B07068 /* ScrollContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollContainerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,6 +118,10 @@
 				C4571FC01AB1DCD700AF0B41 /* PagedScrollViewController.m */,
 				C4571FC21AB1E73100AF0B41 /* PhotoViewController.h */,
 				C4571FC31AB1E73100AF0B41 /* PhotoViewController.m */,
+				C47D33961AD82B70006DF18A /* InfiniteThreeViewController.h */,
+				C47D33971AD82B70006DF18A /* InfiniteThreeViewController.m */,
+				C47D33991AD83B80006DF18A /* InfiniteHorzontalScrollView.h */,
+				C47D339A1AD83B80006DF18A /* InfiniteHorzontalScrollView.m */,
 				C4879B811AB319B900B07068 /* ScrollContainerView.h */,
 				C4879B821AB319B900B07068 /* ScrollContainerView.m */,
 			);
@@ -247,6 +257,8 @@
 				C4571F9C1AB1C65700AF0B41 /* ViewController.m in Sources */,
 				C4571FBE1AB1D62200AF0B41 /* ViewHierarchyScrollViewController.m in Sources */,
 				C4571F991AB1C65700AF0B41 /* AppDelegate.m in Sources */,
+				C47D339B1AD83B80006DF18A /* InfiniteHorzontalScrollView.m in Sources */,
+				C47D33981AD82B70006DF18A /* InfiniteThreeViewController.m in Sources */,
 				C4571FC11AB1DCD700AF0B41 /* PagedScrollViewController.m in Sources */,
 				C4571F961AB1C65700AF0B41 /* main.m in Sources */,
 				C4879B831AB319B900B07068 /* ScrollContainerView.m in Sources */,

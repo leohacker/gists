@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="QeG-wr-bl2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="QeG-wr-bl2">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
     </dependencies>
     <scenes>
         <!--Table View Controller-->
@@ -24,7 +24,7 @@
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="ImageView" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Fv4-KC-IJr">
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -41,7 +41,7 @@
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="ViewHierarchy" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hfB-QH-Rsk">
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -58,7 +58,7 @@
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Paged" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="uE7-p2-Q8G">
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -75,13 +75,30 @@
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="PhotoGallery" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5um-Sz-Ys9">
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="8Sn-z6-8Ap" kind="show" id="Uag-1X-lH5"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="Ha6-Vo-o0G" style="IBUITableViewCellStyleDefault" id="xUx-wr-B0q">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xUx-wr-B0q" id="sq0-cv-FyV">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Infinite3" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ha6-Vo-o0G">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="TSc-oA-Uxb" kind="show" id="x2n-As-gz4"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -96,7 +113,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I51-vW-G0Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="123.99999999999999" y="177.99999999999997"/>
+            <point key="canvasLocation" x="-1400" y="177"/>
         </scene>
         <!--Image Scroll View Controller-->
         <scene sceneID="obh-mr-7LX">
@@ -132,7 +149,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KWF-HY-KKV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1074" y="-480"/>
+            <point key="canvasLocation" x="-602" y="-924"/>
         </scene>
         <!--View Hierarchy Scroll View Controller-->
         <scene sceneID="B7y-kf-lbp">
@@ -168,7 +185,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wzK-YL-CfV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1074" y="241"/>
+            <point key="canvasLocation" x="114" y="-924"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="CJD-aA-tg3">
@@ -186,12 +203,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W1U-1F-RZH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="123.99999999999999" y="-586"/>
+            <point key="canvasLocation" x="-2164" y="177"/>
         </scene>
         <!--Paged Scroll View Controller-->
         <scene sceneID="tpS-zq-nhp">
             <objects>
-                <viewController id="zou-Rz-zS3" customClass="PagedScrollViewController" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="zou-Rz-zS3" customClass="PagedScrollViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="X5D-dS-76x"/>
                         <viewControllerLayoutGuide type="bottom" id="mMD-AZ-nG7"/>
@@ -228,7 +245,52 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z09-Jh-O2S" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1074" y="961"/>
+            <point key="canvasLocation" x="-602" y="-163"/>
+        </scene>
+        <!--Infinite Three View Controller-->
+        <scene sceneID="mlW-S0-xNw">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="TSc-oA-Uxb" customClass="InfiniteThreeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xG5-FN-6Is"/>
+                        <viewControllerLayoutGuide type="bottom" id="p3t-PA-IoN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mXu-QY-ydR" customClass="ScrollContainerView">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="Jt6-am-GVv">
+                                <rect key="frame" x="281" y="533" width="39" height="37"/>
+                            </pageControl>
+                            <scrollView multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XS3-6l-Eet" customClass="InfiniteHorzontalScrollView">
+                                <rect key="frame" x="0.0" y="144" width="600" height="369"/>
+                                <connections>
+                                    <outlet property="delegate" destination="TSc-oA-Uxb" id="zPh-DJ-uSe"/>
+                                </connections>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="XS3-6l-Eet" secondAttribute="trailing" id="FMW-DG-neo"/>
+                            <constraint firstItem="XS3-6l-Eet" firstAttribute="top" secondItem="xG5-FN-6Is" secondAttribute="bottom" constant="80" id="Fnx-hI-pVD"/>
+                            <constraint firstItem="XS3-6l-Eet" firstAttribute="leading" secondItem="mXu-QY-ydR" secondAttribute="leading" id="FxA-kF-JhG"/>
+                            <constraint firstItem="Jt6-am-GVv" firstAttribute="top" secondItem="XS3-6l-Eet" secondAttribute="bottom" constant="20" id="XBb-bz-2tW"/>
+                            <constraint firstAttribute="centerX" secondItem="Jt6-am-GVv" secondAttribute="centerX" id="qUf-CD-YOP"/>
+                            <constraint firstItem="p3t-PA-IoN" firstAttribute="top" secondItem="Jt6-am-GVv" secondAttribute="bottom" constant="30" id="vak-ZL-2RF"/>
+                        </constraints>
+                        <connections>
+                            <outlet property="scrollView" destination="XS3-6l-Eet" id="B2H-Dj-aNx"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="8Mw-Ii-boF"/>
+                    <connections>
+                        <outlet property="pageControl" destination="Jt6-am-GVv" id="La2-8C-hYY"/>
+                        <outlet property="scrollView" destination="XS3-6l-Eet" id="NAF-0U-8xd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y2C-Bz-6MU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-602" y="585"/>
         </scene>
         <!--Photo View Controller-->
         <scene sceneID="hAE-8h-BpW">
@@ -273,7 +335,52 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9fJ-wB-Toh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1074" y="1677"/>
+            <point key="canvasLocation" x="114" y="-163"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="1Bb-MD-XvU">
+            <objects>
+                <viewController id="yh0-Tk-R7f" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YQ6-Sh-mTV"/>
+                        <viewControllerLayoutGuide type="bottom" id="ng1-So-Rs5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bDa-dH-wBM" customClass="ScrollContainerView">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="GtW-mZ-u2J">
+                                <rect key="frame" x="281" y="533" width="39" height="37"/>
+                            </pageControl>
+                            <scrollView multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" bounces="NO" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Opk-FH-tl8">
+                                <rect key="frame" x="10" y="144" width="580" height="369"/>
+                                <connections>
+                                    <outlet property="delegate" destination="yh0-Tk-R7f" id="6lr-Gb-d7t"/>
+                                </connections>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ng1-So-Rs5" firstAttribute="top" secondItem="GtW-mZ-u2J" secondAttribute="bottom" constant="30" id="2pH-hY-bho"/>
+                            <constraint firstItem="Opk-FH-tl8" firstAttribute="top" secondItem="YQ6-Sh-mTV" secondAttribute="bottom" constant="80" id="Gi8-U6-mDK"/>
+                            <constraint firstItem="GtW-mZ-u2J" firstAttribute="top" secondItem="Opk-FH-tl8" secondAttribute="bottom" constant="20" id="RuJ-QH-qkR"/>
+                            <constraint firstAttribute="centerX" secondItem="GtW-mZ-u2J" secondAttribute="centerX" id="ZVL-fd-GKP"/>
+                            <constraint firstItem="Opk-FH-tl8" firstAttribute="leading" secondItem="bDa-dH-wBM" secondAttribute="leading" constant="10" id="a0j-aW-MDE"/>
+                            <constraint firstAttribute="trailing" secondItem="Opk-FH-tl8" secondAttribute="trailing" constant="10" id="lOb-vd-AEn"/>
+                        </constraints>
+                        <connections>
+                            <outlet property="scrollView" destination="Opk-FH-tl8" id="sje-JX-zX9"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="zO6-Ag-QAg"/>
+                    <connections>
+                        <outlet property="pageControl" destination="GtW-mZ-u2J" id="aWA-w9-NEn"/>
+                        <outlet property="scrollView" destination="Opk-FH-tl8" id="KKp-BX-wFK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NJg-jA-Nml" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="114" y="585"/>
         </scene>
     </scenes>
 </document>

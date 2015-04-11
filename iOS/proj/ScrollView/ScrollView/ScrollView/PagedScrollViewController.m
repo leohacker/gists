@@ -32,7 +32,9 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    
+}
+
+- (void)viewDidLayoutSubviews {
     CGSize pagesScrollViewSize = self.scrollView.frame.size;
     self.scrollView.contentSize = CGSizeMake(pagesScrollViewSize.width * self.pageImages.count, pagesScrollViewSize.height);
     
@@ -93,6 +95,8 @@
         UIImageView *newPageView = [[UIImageView alloc] initWithImage:[self.pageImages objectAtIndex:page]];
         newPageView.contentMode = UIViewContentModeScaleAspectFit;
         newPageView.frame = frame;
+        
+        NSLog(@"%f %f %f %f", frame.origin.x, frame.origin.y, frame.size.width, frame.size.height);
         [self.scrollView addSubview:newPageView];
         // 4
         [self.pageViews replaceObjectAtIndex:page withObject:newPageView];

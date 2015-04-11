@@ -14,11 +14,11 @@
 		<string>github.com:leohacker/gists.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>proj-ScrollView/ScrollView.xcodeproj</string>
+	<string>iOS/proj/ScrollView/ScrollView/ScrollView.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>67F814190B1674053A4F77E0C67D3E9515AC2AD4</key>
-		<string>../../..</string>
+		<string>../../../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>github.com:leohacker/gists.git</string>
