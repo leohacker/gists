@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CustomView.h"
 
-@interface ConcreteView : CustomView
+@interface ConcreteView : UIView
 
 @end
